@@ -1,5 +1,5 @@
 import React, { createElement } from 'react'
-import Expenses from './component/Expenses'
+import Expenses from './component/Expenses/Expenses'
 function App() {
   const Expenses1 = [
     { id: 'm1', title: 'chair', amount: '900', date: new Date() },
