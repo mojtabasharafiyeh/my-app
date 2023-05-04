@@ -1,6 +1,6 @@
 import React, { createElement } from 'react'
 import Expenses from './component/Expenses/Expenses'
-function App() {
+const App = () => {
   const Expenses1 = [
     { id: 'm1', title: 'chair', amount: '900', date: new Date() },
     { id: 'm2', title: 'bag', amount: '200', date: new Date(2020, 2, 6) },
