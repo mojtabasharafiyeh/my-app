@@ -1,5 +1,6 @@
 import React, { createElement } from 'react'
 import Expenses from './component/Expenses/Expenses'
+import NewExpense from './component/NewExpense/NewExpense'
 const App = () => {
   const Expenses1 = [
     { id: 'm1', title: 'chair', amount: '900', date: new Date() },
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <div>
       <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses prop={Expenses1} />
     </div>
   )
